@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<style>
+    body{
+        color:rgb(29, 245, 144);
+        background-color: rgb(193, 236, 22);
+    }
+
+    button{
+        background-color: rgb(251, 13, 168);
+        color: rgb(130, 10, 243);
+        border-radius: 2%;
+        border: 4px;
+
+    }
+</style>
+<body>
+    
+    
+    <center >
+        <input type="tel" id ="inp1">
+        <br>
+        <br>
+        <input type="tel" id ="inp2">
+        <br>
+        <br>
+        <button onclick="Add()">+</button>
+        <button onclick="sub()">-</button>
+        <button onclick="mul()">*</button>
+        <button onclick="div()">/</button>
+        <h1 id="result"></h1>
+        
+
+    </center>
+  
+    <script src ="script.js"></script>
+    
+</body>
+</html>
